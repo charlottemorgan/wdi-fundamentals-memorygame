@@ -10,12 +10,21 @@ h1 {
 	margin: 0;
 	text-transform: uppercase;
 }
+nav {
+	background-color: #00A6B3;
+	color: white;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
 a {
 	font-family: Raleway;
-	color: #F15B31;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;	
+	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 h2 {
 	font-family: Raleway;
@@ -35,18 +44,7 @@ header {
 	color: #FFFFFF;
 	padding: 30px 20px;
 }
-nav {
-	background-color: #00A6B3;
-	color: white;
-	padding: 20px 0;
-	text-transform: uppercase;
-}
-a {
-	margin: 0 20px;
-	border-bottom: 2px solid transparent;
-	color: white;
-	text-decoration: none;
-}
+
 a:hover {
 	border-color: white;
 }
